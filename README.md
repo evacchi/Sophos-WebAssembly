@@ -1,9 +1,10 @@
 # WebAssembly parser for Kaitai.io #
 
+Based on original work at [sophoslabs/WebAssembly](https://github.com/sophoslabs/WebAssembly).
 
 ## Testing
 
-    ./mvnw --batch-mode verify
+    ./mvnw verify
 
 ## Source
 
