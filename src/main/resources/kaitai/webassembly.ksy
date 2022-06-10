@@ -149,12 +149,14 @@ types:
 
   data_segment_type:
     seq:
-      - id: index
+      - id: type
         type: vlq_base128_le
-      - id: offset
+      - id: offset_expr_opcode
         type: u1
-        repeat: until
-        repeat-until: _ == 0x0b
+      - id: offset_expr_arg
+        type: vlq_base128_le
+      - id: terminator
+        contents: [0x0b]
       - id: size
         type: vlq_base128_le
       - id: data
