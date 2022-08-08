@@ -16,7 +16,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <version.kaitai.maven>0.1.4</version.kaitai.maven>
         <version.build-helper.maven>3.3.0</version.build-helper.maven>
-        <version.kaitai>0.9</version.kaitai>
+        <version.kaitai>0.10</version.kaitai>
         <version.surefire.maven>2.22.2</version.surefire.maven>
     </properties>
 
