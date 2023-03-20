@@ -17,7 +17,7 @@
         <version.kaitai.maven>0.1.6</version.kaitai.maven>
         <version.build-helper.maven>3.3.0</version.build-helper.maven>
         <version.kaitai>0.10</version.kaitai>
-        <version.surefire.maven>2.22.2</version.surefire.maven>
+        <version.surefire.maven>3.0.0</version.surefire.maven>
     </properties>
 
     <build>
